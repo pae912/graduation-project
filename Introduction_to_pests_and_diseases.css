@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    /* padding: 20px 0; */
+}
+
+/* 導覽列 */
+
+.content {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(224, 203, 168, 0.6);
+    top: 0;
+}
+
+/* 導覽列左邊logo */
+
+.waxapple_img {
+    width: 55px;
+    height: 55px;
+    /* padding: 5px; */
+    /* left: 30%; */
+    position: absolute;
+    left: 3%;
+    top: 10%;
+}
+
+.waxapple_word {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Tapestry-Regular';
+}
+
+@font-face {
+    font-family: 'Tapestry-Regular';
+    src: url(Tapestry-Regular.woff) format('woff');
+}
+
+/* 導覽列右邊 */
+
+nav>ul {
+    /* background-color: rgb(230, 230, 230); */
+    list-style: none;
+    /* 移除項目符號 */
+    margin: 0;
+    padding: 20px;
+}
+
+nav a {
+    color: inherit;
+    /* 移除超連結顏色 */
+    display: block;
+    /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    margin: 6px;
+    /* padding: 6px; */
+    text-decoration: none;
+    /* 移除超連結底線 */
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: rgb(198, 143, 122);
+    color: white;
+}
+
+.flex-nav {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    /* 向右對齊 */
+    justify-content: right;
+}
+
+/* 病蟲害介紹 */
+
+
+.disease {
+    /* margin-top: 100px; */
+    padding: 30px;
+    width: 1000px;
+    margin: 70px;
+    /* border: solid 1px gray; */
+    overflow: hidden;
+    /* 避免長方框下面顯示不正常 */
+    background-color: rgb(193, 188, 172);
+    box-shadow: 8px 8px 2px rgba(151, 155, 141, 0.9);
+}
+
+.disease_photo {
+    width: 450px;
+    height: 400px;
+    float: left;
+    border: solid 5px #fff;
+}
+
+.txt {
+    /* background-image: linear-gradient(#eee 0.1em, transparent 0.1em); */
+    /* float: right; */
+    width: 400px;
+    height: 300px;
+    float: right;
+    /* left: 100px; */
+
+}
+
+.disease_photo .txt {
+    display: block;
+    width: 100%;
+}
+
+.disease_name {
+    font-size: 20px;
+}
+
+.pests_diseases {
+    /* display: inline-block; */
+    /* float: left; */
+    margin: 80px 150px;
+    /* text-align: center; */
+}
+
+.introduction {
+    float: right;
+    margin: 80px;
+    position: fixed;
+    right: 30px;
+    top: 100px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sidemenu_diseases, .sidemenu_pests {
+    border-radius: 9px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    background-color: rgb(234, 225, 166);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.disease_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.disease_list :hover {
+    color: rgb(135, 93, 15);
+}

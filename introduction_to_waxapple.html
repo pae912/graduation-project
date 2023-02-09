@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./introduction_to_waxapple.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>蓮霧基本介紹</title>
+</head>
+
+<body style="background-color: rgb(241, 237, 228);">
+    <header class="header-content">
+        <nav>
+            <a href="./home.html">
+                <div class="waxapple">
+                    <img src="./waxapple.png" class="waxapple_img">
+                    <div class="waxapple_tree_word">wax apple</div>
+                </div>
+            </a>
+            <ul class="flex-nav">
+                <li><a href="http://192.168.0.99:1880/ui/#!/0?socketid=SuC4aJyGxVvKrJNPAAAL">果園監控</a></li>
+                <li><a href="http://192.168.0.99:1880/ui/#!/1?socketid=SuC4aJyGxVvKrJNPAAAL">果園畫面</a></li>
+                <li><a href="./introduction_to_waxapple.html">蓮霧基本介紹</a></li>
+                <li><a href="./Introduction_to_pests_and_diseases.html">病蟲害介紹</a></li>
+                <li><a href="./historical_data.html">歷史資料</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="all_breed">
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./南洋粉紅種.jpg" alt="南洋粉紅種" id="myBtn" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>南洋種</h3>
+                    <span class="arrow" id="Btn">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">南洋種</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>南洋種為目前栽培最廣泛的品種，其
+                                根系強健、生長快速、較耐淹水及鹽鹼土
+                                質，平均單果重100-150公克，果實縱徑與
+                                橫徑相近，約為5.5-7公分。高溫期發育之
+                                果實果色粉紅、裂果率高，常含1-2粒種
+                                子，經產期調節之冬季果於涼溫環境下發
+                                育，果肉較硬而脆，果色深紅、無種子，可
+                                溶性固形物含量可達12°Brix以上，因此而
+                                有黑珍珠之名。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./大果品系.jpg" alt="大果品系" id="myBtn2" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>大果種</h3>
+                    <span class="arrow" id="Btn2">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">大果種</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>大果種為南洋種芽條變異所選拔出的
+                                大果品系的總稱，至少有5-6個不同的品系
+                                已被選用於經濟生產。大果種果皮的縱向
+                                稜紋較明顯，平均單果重為200-250公克，
+                                適合做為禮盒果品。葉片特徵依品系而不
+                                同，有的葉片較粉紅種寬大，有的品系枝條
+                                較柔軟，因此在產區有「大葉」或「軟枝」
+                                等稱呼。由於大果種高壓苗根系較弱、不
+                                耐淹水，栽植於沿海鄉鎮黏稠土壤或是低
+                                窪地區果園，常生長緩慢或經濟生產年限較短，
+                                若嫁接於根系較強健之南洋種根砧
+                                上，則生長較為穩定。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./泰國種.jpg" alt="泰國種" id="myBtn3" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>泰國種</h3>
+                    <span class="arrow" id="Btn3">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal3" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">泰國種</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>本品種泰文名稱Thub Thim Chan意為
+                                「紅寶石」，果型較長如飛彈為其特色，因此市面上多稱之
+                                為「飛彈蓮霧」。新葉呈紫紅色，果色鮮紅
+                                至暗紅色，單果重約130-200公克，夏果可
+                                溶性固形物含量可達12 °Brix以上，果肉脆
+                                但纖維較粗，裂果率較粉紅種略低。果實
+                                轉色較早，採收時應選擇果臍較開而果窪
+                                泛紅者，以免糖渡過低，或出現未熟果之
+                                澀味。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./印尼大果種.jpg" alt="印尼大果種" id="myBtn4" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>印尼大果種</h3>
+                    <span class="arrow" id="Btn4">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal4" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">印尼大果種</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>印尼大果種果形碩大如巴掌，口感甜
+                                脆且具有蒲桃香氣，因此又稱為巴掌蓮霧
+                                或香水蓮霧。本品種果色綠棕色而泛紅，
+                                單果重約為250-350公克，亦可達400公克
+                                以上，每串留果量以3-5粒為佳，可溶性固
+                                形物含量全果平均約10 °Brix，酸度較其他
+                                品種低，果肉脆而纖維細，裂果率低。夏
+                                果易感染疫病，栽培時應特別注意在花謝
+                                後、合臍前及套袋前進行防治。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./高雄1號夏之戀.jpg" alt="高雄1號夏之戀" id="myBtn5" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>高雄1號夏之戀</h3>
+                    <span class="arrow" id="Btn5">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal5" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">高雄1號夏之戀</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>「夏之戀」成熟時果皮色澤呈深紫紅色至紫黑色，
+                                市場辨別度高，果實較硬，貯運不易撞傷，裂果率
+                                低且不易落果，適合在夏季生產，
+                                可填補傳統蓮霧在冬、春採收後的空窗期。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./高雄2號春之桃.jpg" alt="高雄2號春之桃" id="myBtn6" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>高雄2號春之桃</h3>
+                    <span class="arrow" id="Btn6">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal6" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">高雄2號春之桃</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>「春之桃」口感清甜，糖度約10度，與印尼大果種相當，
+                                其栽培冬、春、夏果均適合，但冬、春果果色較深、偏桃紅
+                                夏果則偏粉紅色。陳思如說，因「春之桃」果色桃紅、果肉白色，
+                                且果皮薄、果肉細緻，「入口即化」，類似水蜜桃，故又有「水蜜桃蓮霧」的美稱。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="breedbox">
+                <div class="breed">
+                    <img src="./越南白蓮霧.jpg" alt="越南白蓮霧" id="myBtn7" class="breed_img">
+                </div>
+                <div class="txt">
+                    <h3>越南白蓮霧</h3>
+                    <span class="arrow" id="Btn7">&#8594;</span>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal7" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">越南白蓮霧</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>越南種白蓮霧，最近成為市場的新寵兒；因為白蓮霧的色澤晶瑩透亮，
+                                有如白玉一般，再加上果實飽滿，賣相很好，無論是甜度還是價錢，
+                                都和黑金剛蓮霧不分軒輊。
+                                這幾顆外表晶瑩剔透，有如白玉一般的白蓮霧，
+                                不僅每顆都果實飽滿，個頭也比一般蓮霧大上2倍。
+                                表皮白色，在臺灣較少見的品種，口感脆甜。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("#myModal").modal({ backdrop: "static" });
+            });
+            $("#Btn").click(function () {
+                $("#myModal").modal({ backdrop: "static" });
+            });
+            $("#myBtn2").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#Btn2").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#myBtn3").click(function () {
+                $("#myModal3").modal({ backdrop: "static" });
+            });
+            $("#Btn3").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#myBtn4").click(function () {
+                $("#myModal4").modal({ backdrop: "static" });
+            });
+            $("#Btn4").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#myBtn5").click(function () {
+                $("#myModal5").modal({ backdrop: "static" });
+            });
+            $("#Btn5").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#myBtn6").click(function () {
+                $("#myModal6").modal({ backdrop: "static" });
+            });
+            $("#Btn6").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+            $("#myBtn7").click(function () {
+                $("#myModal7").modal({ backdrop: "static" });
+            });
+            $("#Btn7").click(function () {
+                $("#myModal2").modal({ backdrop: "static" });
+            });
+        });
+    </script>
+</body>
+
+</html>

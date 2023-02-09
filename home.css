@@ -1,0 +1,108 @@
+/* 導覽列 */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+/* logo */
+
+.waxapple{
+    width: 300px;
+    height: 5px;
+}
+.waxapple_img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    z-index:1;
+}
+
+.waxapple_word {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Tapestry-Regular';
+    z-index:1;
+}
+
+@font-face {
+    font-family: 'Tapestry-Regular';
+    src: url(Tapestry-Regular.woff) format('woff');
+}
+
+nav a {
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    /* 移除超連結底線 */ 
+}
+
+/* 背景圖 */
+
+.farm_photo img {
+    width: 100%;
+    height: 100vh;
+    /* 圖片模糊 */
+    filter: blur(8px) ;
+}
+
+.quick_links_outer {
+    position: relative;
+    
+}
+
+.quick_links_outer .quick_link_wrapper {
+    position: absolute;
+    top: 28%;
+    left: -3%;
+    padding: 5px;
+    margin: 40PX;
+}
+.quick_link_wrapper {
+    display: flex;
+    padding: 50%;
+}
+
+.quick_link_wrapper>li {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px 130px;
+    list-style-type: none;
+}
+
+.quick_link_wrapper .quick_link {
+    border-radius: 13%;
+    width: 200px;
+    height: 200px;
+    background:  rgb(222, 222, 233,0.6);
+    border: 5px rgb(195, 195, 218) solid;
+    position: absolute;
+    font-weight:bold;
+}
+
+.stext{
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    font-weight:bold;
+}
+
+.square_img{
+    width: 100px;
+    height: 100px;
+    margin-top: 35px;
+}
+
